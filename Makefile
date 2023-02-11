@@ -8,5 +8,5 @@ test:
 lint:
 	python -m pylint --disable=R,C hello.py
 	
-all: texttall lint test
+all: install lint test
 	
