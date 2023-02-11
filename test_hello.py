@@ -1,6 +1,3 @@
-from rest_framework.test import APITestCase
-
-
-class TestTemporaryAccess(APITestCase):
+class TestTemporaryAccess():
     def setUp(self):
         return True
