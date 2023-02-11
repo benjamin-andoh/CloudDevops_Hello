@@ -1,3 +1,3 @@
-class TestTemporaryAccess():
-    def setUp(self):
-        return True
+def myFunc():
+    i = 3
+    assert i == 3
